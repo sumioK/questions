@@ -20,3 +20,22 @@ else:
 s = "python"
 print(s[3])
 
+# 64
+s1 = "py"
+s2 = "thon"
+print(s1 + s2)
+
+# 65
+c = ["red", "blue", "yellow"]
+print(type(c))
+
+# 66
+li = ["リンゴ", 3, "ゴリラ"]
+print(li)
+
+# 67
+apple = 4
+grape = 3
+banana = 6
+fruits = [apple, grape, banana]
+print(fruits)
