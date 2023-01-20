@@ -39,3 +39,16 @@ grape = 3
 banana = 6
 fruits = [apple, grape, banana]
 print(fruits)
+
+# 68
+c = ['dog', 'blue', 'yellow']
+c[0] = 'red'
+print(c)
+
+# 69
+li = [1, 2, 3, 4, 5]
+print(li[3])
+
+# 70
+li = [1, 2, 3, 4, 5]
+print(li[1])
