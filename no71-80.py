@@ -21,3 +21,13 @@ print(li[::-1])
 # 75
 mat = [[1, 2], [3, 4]]
 print(mat[0][1])
+
+# 76
+c = ['red', 'blue', 'yellow']
+c.append('green')
+print(c)
+
+# 77
+c = ['dog', 'blue', 'yellow']
+c.remove('dog')
+print(c)
