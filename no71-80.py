@@ -31,3 +31,18 @@ print(c)
 c = ['dog', 'blue', 'yellow']
 c.remove('dog')
 print(c)
+
+# 78
+li1 = [1, 2, 3]
+li2 = [4, 5, 6]
+print(li1 + li2)
+
+# 79
+li1 = [1, 2, 3, 4, 5]
+li2 = [6, 7, 8, 9, 10]
+print(li1 + li2)
+
+# 80
+c = ['red', 'blue', 'yellow']
+c_copy = list(c)
+print(c_copy)
