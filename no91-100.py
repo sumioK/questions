@@ -22,3 +22,24 @@ print(n)
 n = [7, 3, 6, 1, 4]
 n.clear()
 print(n)
+
+# 96
+d = {1: 'A', 2: 'B'}
+print(d)
+
+# 96
+d = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
+print(d)
+
+# 97
+d = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
+print(len(d))
+
+# 98
+d = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
+del d['B']
+print(d)
+
+# 100
+d.clear()
+print(d)
