@@ -18,3 +18,22 @@ print(town)
 # 105
 keys =list(town.keys())
 print(keys)
+
+# 106
+print(list(town.values()))
+
+# 107
+print(list(town.items()))
+
+# 108
+print(town.get('Okinanwa'))
+
+# 109
+print(town.get("Okinawa", 'なし'))
+
+# 110
+# if not town.get('Okinawa'):
+#   town['Okinawa'] = 'Naha'
+# print(town)
+town['Okinawa'] = town.get('Okinawa', 'Naha')
+print(town)
