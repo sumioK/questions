@@ -32,4 +32,20 @@ d = {'one': 10, 'two':20, 'three':30}
 for k, v in d.items():
   print(k, v)
 
-#
+#137
+print({1, 3, 5, 4, 6, 5, 1, 3, 4, 6, 5})
+
+# 138
+s = {1, 2, 3, 4}
+s.add(5)
+print(s)
+
+# 139
+s = {1, 2, 3, 4, 5}
+s.remove(3)
+print(s)
+
+# 140
+s = {1, 2, 3, 4}
+s.clear()
+print(s)
