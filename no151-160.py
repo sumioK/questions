@@ -46,10 +46,25 @@ while i < 4:
     continue
   print(i)
   
-# 160
+# 162
 i = 0
 while i < 3:
   print(i)
   i = i + 1
 else:
   print('終了')
+
+# 163
+n = 1
+for i in range(4):
+  print(n)
+
+# 164
+i = 0
+while i < 10:
+  print(i)
+  i += 1
+
+# 165
+for i in range(5, 10):
+  print(i)
