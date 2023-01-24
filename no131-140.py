@@ -26,3 +26,10 @@ dict = {}
 for k, v in zip(keys, values):
   dict[k] = v
 print(dict)
+
+# 136
+d = {'one': 10, 'two':20, 'three':30}
+for k, v in d.items():
+  print(k, v)
+
+#
