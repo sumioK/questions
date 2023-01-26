@@ -41,3 +41,17 @@ else:
 li = [1, 2, 3, 4, 5]
 t = (li[0], li[-1])
 print(t)
+
+# 179
+words = [["A", "red"],["B", "pink"],["C", "yellow"]]
+for i in words:
+  print(i[0],"is",i[1])
+# answer
+for word, color in words:
+  print(word + " is " + color)
+
+# 180
+town = {'Aichi': 'Nagoya', 'Kanagawa': 'Yokohama', 'Hokkaido': 'Sapporo'}
+
+for k, v in town.items():
+  print(k, v)
