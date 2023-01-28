@@ -29,3 +29,17 @@ print(a)
 # 187
 x = ['グー', 'チョキ', 'パー']
 y = ['グー', 'チョキ', 'パー']
+a = [[x,y] for x in['グー', 'チョキ', 'パー'] for y in ['グー', 'チョキ', 'パー'] if x == y]
+print(a)
+
+# 188
+a = [[x, y] for x in range(3) for y in range(2)]
+print(a)
+
+# 189
+a = tuple(k for k in range(10) if k %2 == 0)
+print(a)
+
+# 190
+d = {k: v for k, v in zip(['one', 'two', 'three'], [1, 2, 3])}
+print(d)
